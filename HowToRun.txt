@@ -1,0 +1,20 @@
+Put the following files in the same folder or in your PYTHONPATH
+* midterm.py
+* geometry.py
+* edge.py
+* graph.py
+* planning.py
+* queue.py
+* draw_cspace.py (This can be obtained from the course github.)
+
+import json, sys, argparse, math
+import from shapely.geometry import Polygon on planning
+
+then run:
+
+$ python midterm.py midterm_desc.json --out midterm_out.json
+
+with "midterm_desc.json being input file name
+and "midterm_out.json being output file name
+
+It will take a few seconds then output json file will be created and show vertices, edges, and path
